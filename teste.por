@@ -1,6 +1,6 @@
 programa{
 	funcao inicio(){
-		real numero1, numero2, soma
+		real numero1, numero2, soma, mult
 		escreva("Informe o 1° número: ")
 		leia(numero1)
 		escreva("Informe o 2° número: ")
@@ -8,6 +8,9 @@ programa{
 		
 		soma = numero1 + numero2
 		
-		escreva("Soma: ",soma)	
+		escreva("Soma: ",soma)
+		mult = numero1 * numero2
+		escreva("Multiplicação: ",mult)
+
 	}
 }
