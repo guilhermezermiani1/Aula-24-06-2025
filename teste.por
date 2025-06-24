@@ -13,6 +13,7 @@ programa{
 		escreva("Multiplicação: ",mult)
 		
 		div = numero1 / numero2
+		escreva("Divisão: ",div)
 
 	}
 }
